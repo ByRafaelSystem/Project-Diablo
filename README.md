@@ -1,12 +1,5 @@
 <div align="center">
-<pre>
-  ██████╗ ██╗ █████╗ ██████╗ ██╗      ██████╗ 
-  ██╔══██╗██║██╔══██╗██╔══██╗██║     ██╔═══██╗
-  ██║  ██║██║███████║██████╔╝██║     ██║   ██║
-  ██║  ██║██║██╔══██║██╔══██╗██║     ██║   ██║
-  ██████╔╝██║██║  ██║██████╔╝███████╗╚██████╔╝
-  ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝
-</pre>
+  <img src="diablo_ascii.png" alt="DIABLO" width="600">
 </div>
 
 ![Project Diablo](https://github.com/ByRafaelSystem/Project-Diablo/blob/main/IMG_20260317_235340.jpg?raw=true)
