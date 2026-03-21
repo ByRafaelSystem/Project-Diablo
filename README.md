@@ -1,95 +1,171 @@
-<div align="center">
-  <img src="diablo_ascii.png" alt="DIABLO" width="600">
-</div>
+# 😈 Project Diablo Pro
 
-![Project Diablo](https://github.com/ByRafaelSystem/Project-Diablo/blob/main/IMG_20260317_235340.jpg?raw=true)
-
-<div align="center">
-
-# 😈 Project Diablo
-
-### By\_Rafael System
+### By_Rafael System
 
 **Motor de rendimiento avanzado para Android — Performance Engine**
 
-[![Version](https://img.shields.io/badge/Versión-v1.3-red?style=flat-square)](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-[![Android](https://img.shields.io/badge/Android-9%2B-green?style=flat-square)](https://github.com/ByRafaelSystem/Project-Diablo)
-[![Root](https://img.shields.io/badge/Root-Magisk%20%7C%20KSU%20%7C%20APatch-blue?style=flat-square)](https://github.com/ByRafaelSystem/Project-Diablo)
-[![Chips](https://img.shields.io/badge/Chips-MTK%20%7C%20SD%20%7C%20Exynos%20%7C%20Tensor%20%7C%20más-purple?style=flat-square)](https://github.com/ByRafaelSystem/Project-Diablo)
-[![License](https://img.shields.io/badge/License-Apache%202.0-orange?style=flat-square)](https://github.com/ByRafaelSystem/Project-Diablo/blob/main/LICENSE)
-[![Telegram](https://img.shields.io/badge/Telegram-Canal%20Oficial-blue?style=flat-square&logo=telegram)](https://t.me/proyect_diablo)
-
-</div>
 
 ---
 
 ## 🌍 Idiomas / Languages
 
-- 🇪🇸 [Español](#español)
-- 🇺🇸 [English](#english)
-- 🇧🇷 [Português](#português)
-- 🇮🇩 [Indonesia](#indonesia)
-- 🇷🇺 [Русский](#русский)
+- 🇪🇸 [Español](#-español)
+- 🇺🇸 [English](#-english)
+- 🇧🇷 [Português](#-português)
+- 🇮🇩 [Indonesia](#-indonesia)
+- 🇷🇺 [Русский](#-русский)
 
 ---
 
 ## 🇪🇸 Español
 
-### ¿Qué es Project Diablo?
+### ¿Qué es Project Diablo Pro?
 
-Project Diablo es un motor de rendimiento avanzado que optimiza CPU, GPU, memoria y touch de tu Android para maximizar FPS y reducir lag en juegos. Detecta automáticamente tu chipset al instalar y aplica tweaks específicos para cada fabricante.
-
-A partir de la **v1.3**, incluye **DiabloAI** — un motor de detección automática que aplica el modo correcto según lo que estés haciendo: gaming, cargando, idle o pantalla apagada. Se controla desde el **KSU WebUI**, la interfaz gráfica integrada en KernelSU.
+Project Diablo Pro es un motor de rendimiento avanzado para Android que optimiza CPU, GPU, memoria y touch para maximizar FPS y reducir lag. La versión **Pro v2.0** introduce **DiabloAI v2** — un sistema de inteligencia automática con 6 reglas configurables que se adapta solo según lo que estás haciendo en el teléfono.
 
 ---
 
-### ✨ Características
+### 📱 App de Control — Diablo Pro App
 
-- 😈 **4 modos de rendimiento** — Performance · Balance · Battery · Gaming Pro
-- 🤖 **DiabloAI** — Detección automática de contexto: gaming · balance · idle · carga
-- 🔥 **CPU Engine** — Governor dinámico por chip: `sugov_ext` MTK · `schedutil` Snapdragon · `performance` Exynos
-- 🎮 **GPU Engine** — Frecuencia máxima con anti-reversión, soporte `gpufreqv2` y legacy MTK, Mali dinámico
-- 👆 **Touch Profiles** — Normal · Gaming 1000Hz · iPhone Style · Sistema
-- 🎮 **Gamelist** — 522+ juegos reconocidos para activación automática de Gaming Pro
-- ⚡ **FastCharge** — Carga más rápida con protección térmica automática
-- 🧠 **Gaming Keeper** — Combate las reversiones de HyperOS cada 5 segundos en modo Gaming Pro
-- 🌐 **Network Boost** — TCP optimizado y latencia reducida
-- 🎨 **KSU WebUI** — Panel de control completo, sin apps externas
-- 🔍 **Detección automática de chipset** — via sysfs + getprop, guardada para próximos boots
+A partir de v2.0, el módulo incluye una **app nativa de Android** que se instala automáticamente al flashear. Ya no necesitás KernelSU WebUI para controlar el módulo.
+
+| Característica | Detalle |
+|---|---|
+| 🔧 **Instalación automática** | Se instala sola al flashear el módulo — sin pasos extra |
+| 📱 **App nativa** | Funciona desde el cajón de aplicaciones como cualquier app |
+| 😈 **Ícono propio** | Demonio morado con lentes negros de sol |
+| ⚡ **Sin lag** | WebView nativo dedicado — sin el lag del WebUI de KSU |
+| 🌐 **Compatible con todo** | Magisk, KernelSU y APatch — cualquier gestor de root |
+| 🔑 **Bridge root directo** | Ejecuta comandos con `su` sin pasar por capas del gestor |
+| 💾 **Banner personalizable** | Cambiá el banner desde la app con tu propia imagen |
+| 📲 **Android 5.0+** | Compatible con cualquier Android rooteado moderno |
+
+> 💡 Si preferís el WebUI de KernelSU, sigue funcionando igual que antes. La app es una alternativa más fluida y universal.
+
+---
+
+### ✨ Novedades en v2.0 PRO
+
+| Característica | Descripción |
+|---|---|
+| 📱 **App de Control** | App nativa incluida en el módulo — se instala automáticamente |
+| 🤖 **DiabloAI v2** | 6 reglas configurables — detecta apps, temperatura, batería baja, idle y más |
+| 🎮 **Gamelist inteligente** | Asignás un modo específico a cada app. No solo juegos — cualquier app |
+| 📱 **Página AI dedicada** | Control total de DiabloAI con estado en tiempo real |
+| 🔒 **Sistema de bloqueo por app** | Cuando detecta una app de la gamelist la bloquea hasta que termine |
+| 🔔 **Notificaciones dinámicas** | La notificación muestra el modo exacto que aplicó según la app |
+| 😈 **Diablo 3D animado** | El ícono de DiabloAI tiene dos estados — activo con fuego y dormido con Zzz |
+| 🔊 **Sonido de bienvenida** | Efecto Portal al abrir (Web Audio API, 0 KB extra) |
+| 🔊 **Sonidos de AI** | Sonido al activar y desactivar DiabloAI |
+| 🎨 **Nuevo diseño PRO** | Colores púrpura + dorado, banner 3D, 5 pestañas de navegación |
+| ❓ **Botones de ayuda ?** | 3 botones contextuales en página AI, traducidos en 5 idiomas |
+| 🔋 **Niveles de Battery** | 3 niveles de ahorro seleccionables con slider |
+| 🔧 **Selección de chip manual** | Corregí el chip detectado desde la tarjeta de estado — se guarda permanentemente |
+| ℹ️ **Info ? en Status** | Explicación de DiabloAI, chip, Battery y prioridades en 5 idiomas |
+| 🌐 **Gaming Pro — Red integrada** | WiFi baja latencia, TCP gaming, buffers 4MB, RPS — automático al jugar |
+| 👹 **Diablesa** | Segundo personaje seleccionable — tocá el demonio en la página AI |
+| ⚡ **Loop AI optimizado** | Config en memoria — de hasta 20s por ciclo a menos de 1s |
+
+---
+
+### 😈 DiabloAI v2 — Motor automático
+
+DiabloAI detecta el contexto del teléfono y aplica el modo correcto sin que el usuario tenga que hacer nada.
+
+**Sistema de bloqueo por app:**
+Cuando detecta una app de la gamelist en primer plano (`oom_score_adj ≤ 0`), aplica el modo asignado y bloquea. Solo libera cuando la app desaparece completamente de memoria.
+
+**6 Reglas automáticas configurables:**
+
+| Regla | Comportamiento | Ajustable |
+|---|---|---|
+| 🎮 App del gamelist | Aplica el modo asignado a esa app | Modo por app |
+| 📴 Pantalla apagada | Aplica Battery automáticamente | ON/OFF |
+| 🔌 Cargando | Aplica el modo por defecto | ON/OFF |
+| 💤 Sin actividad | Battery tras X minutos de idle | Slider 2–15 min |
+| 🪫 Batería baja | Battery cuando baja de X% | Slider 10–30% |
+| 🌡️ Temperatura alta | Battery al superar X°C, restaura al enfriarse | Slider 40–55°C |
+
+**Prioridad de reglas:**
+```
+1° Temperatura     → seguridad del hardware primero
+2° App del gamelist
+3° Pantalla apagada
+4° Batería baja
+5° Cargando
+6° Idle
+7° Activo normal   → modo por defecto
+```
+
+---
+
+### 🌐 Gaming Pro — Red integrada
+
+| Optimización | Detalle |
+|---|---|
+| WiFi baja latencia | Prioriza latencia sobre ahorro de energía |
+| Sin escaneos de fondo | El chip WiFi no interrumpe la conexión buscando otras redes |
+| TCP sin frenos de idle | No frena entre ráfagas de paquetes del juego |
+| Buffers TCP a 4MB | `rmem_max/wmem_max` elevados para que el kernel no los trunque |
+| Cola WiFi 3000 | Aguanta ráfagas sin descartar paquetes |
+| RPS en 4 cores | Interrupciones de red distribuidas — siempre hay un core libre |
+| Sin diagnósticos | Para `cnss_diag` y `tcpdump` que roban CPU durante el juego |
+
+> 💡 Activá **Diablo Boost** desde la app para sumar `netdev_max_backlog`, `tcp_fastopen` y WiFi sin power save encima de Gaming Pro.
+
+---
+
+### 🔋 Niveles de Battery
+
+| Nivel | Governor | CPU | Ideal para |
+|---|---|---|---|
+| 🌿 **Suave** | schedutil | 50% máx | Uso cotidiano con ahorro moderado |
+| ⚡ **Moderado** | powersave | 25% máx | Buen ahorro sin sacrificar la usabilidad |
+| 💀 **Agresivo** | powersave | Mínimo | Reposo total, máxima autonomía |
+
+---
+
+### 👹 Diablesa — Segundo personaje
+
+Tocá el demonio animado en la página AI para abrir el selector de personaje. Elegí entre **Diablo** (púrpura) y **Diablesa** (rosa). La selección se guarda automáticamente.
+
+---
+
+### 🔧 Selección de chip manual
+
+En la tarjeta de estado hay un botón **CHIP ▾**. Si la detección falló, tocá para elegir manualmente entre MediaTek · Snapdragon · Exynos · Unisoc · Google Tensor · Kirin. Se guarda permanentemente.
+
+---
+
+### 🎮 Gamelist inteligente
+
+Formato: `package|nombre|modo`
+
+```
+com.dts.freefireth|Free Fire|4          → Gaming Pro
+com.miHoYo.GenshinImpact|Genshin|4      → Gaming Pro
+com.google.android.camera|Cámara|1      → Performance
+com.instagram.android|Instagram|3       → Battery
+com.spotify.music|Spotify|2             → Balance
+```
 
 ---
 
 ### 😈 Modos disponibles
 
 | Modo | CPU | GPU | Ideal para |
-|------|-----|-----|------------|
-| ⚡ Performance | Governor máximo | Frecuencia máxima | Rendimiento sostenido |
-| ⚖️ Balance | Governor inteligente | Frecuencia media | Uso diario con buena duración |
-| 🔋 Battery | Ahorro agresivo | Frecuencia mínima | Máxima autonomía |
-| 😈 Gaming Pro | Máximo + anti-reversión | Máximo + keeper | Juegos competitivos |
-
----
-
-### 🤖 DiabloAI — Modo Automático
-
-DiabloAI es el motor de inteligencia del módulo. Cuando está activado, decide el modo automáticamente:
-
-| Situación detectada | Modo aplicado |
-|---------------------|---------------|
-| Juego de la gamelist en ejecución | 😈 Gaming Pro |
-| Pantalla apagada | 🔋 Battery |
-| Cargando | ⚖️ Balance |
-| Uso normal activo | ⚖️ Balance |
-| Sin actividad por 5 minutos | 🔋 Battery |
-
-> **Importante:** cuando DiabloAI está **activado**, los botones de modo del WebUI quedan en modo informativo — el AI tiene el control. Para aplicar un modo manualmente, desactivá DiabloAI primero.
+|---|---|---|---|
+| 🔥 Performance | Governor máximo | Frecuencia máxima | Rendimiento sostenido |
+| ⚖️ Balance | Governor inteligente | Frecuencia media | Uso diario |
+| 🔋 Battery | Ahorro (nivel elegido) | Frecuencia mínima | Máxima autonomía |
+| 😈 Gaming Pro | Máximo absoluto | Máximo + FPSGO | Juegos competitivos |
 
 ---
 
 ### 🔧 Chipsets soportados
 
 | Chipset | Soporte | Detalles |
-|---------|---------|---------- |
+|---|---|---|
 | MediaTek (MTK) | ✅ Máximo | `sugov_ext` · `gpufreqv2` · `dvfsrc` · `FPSGO` · Mali dinámico |
 | Snapdragon (QCOM) | ✅ Completo | `schedutil` · DCVS bus boost · KGSL GPU |
 | Exynos (Samsung) | ✅ Completo | `performance` governor · GPU devfreq |
@@ -102,325 +178,296 @@ DiabloAI es el motor de inteligencia del módulo. Cuando está activado, decide 
 ### 📱 Compatibilidad de dispositivos
 
 | Dispositivo | Compatibilidad | Notas |
-|-------------|----------------|-------|
-| Xiaomi / Redmi / POCO | ✅ Máxima | Optimizado para HyperOS 2 · Gaming Keeper activo |
-| Samsung | ✅ Parcial | Exynos soportado · Sin tweaks OneUI específicos |
-| OnePlus / OPPO | ✅ Parcial | Sin tweaks ColorOS específicos |
+|---|---|---|
+| Xiaomi / Redmi / POCO | ✅ Máxima | Optimizado para HyperOS · DiabloAI verificado |
+| Samsung | ✅ Parcial | Exynos soportado |
+| OnePlus / OPPO | ✅ Parcial | Tweaks genéricos |
 | Google Pixel | ✅ Parcial | Tensor soportado |
-| Otros Android 9+ | ✅ Base | Tweaks genéricos activos |
-| **Helio G99 (MTK)** | ✅ **Máxima** | Nodos verificados en hardware real |
+| Otros Android 5.0+ | ✅ Base | Tweaks genéricos activos |
+| **Helio G99 (MT6789)** | ✅ **Verificado** | Redmi Note 14 4G — hardware real |
 
 ---
 
 ### ⚙️ Gestores de root compatibles
 
-| Gestor | Versión mínima | Estado |
-|--------|----------------|--------|
-| Magisk | v20.4+ | ✅ Soportado |
-| KernelSU (KSU) | Cualquiera | ✅ Soportado + WebUI |
-| APatch | Cualquiera | ✅ Soportado |
+| Gestor | Versión mínima | App de Control | WebUI |
+|---|---|---|---|
+| Magisk | v20.4+ | ✅ Incluida en el módulo | ❌ No disponible |
+| KernelSU | Cualquiera | ✅ Incluida en el módulo | ✅ Disponible |
+| APatch | Cualquiera | ✅ Incluida en el módulo | ✅ Disponible |
 
 ---
 
-### 🖥️ KSU WebUI — Panel de Control
+### ⚡ FastCharge Next
 
-Project Diablo incluye una interfaz gráfica completa integrada con **KernelSU WebUI**. No necesitás ninguna app externa.
+- Corriente ajustable: 500 mA a 3000 mA
+- Temperatura máxima: slider 35°C–48°C
+- Temperatura de recuperación: slider 30°C–47°C
+- ⚠️ La compatibilidad depende del kernel y ROM del dispositivo
 
-**¿Cómo acceder?**
-1. Abrí KernelSU
-2. Tocá el módulo Project Diablo
-3. Tocá **Abrir WebUI**
+---
 
-**Qué podés hacer desde el WebUI:**
+### 👆 Touch Engine
 
-| Sección | Funciones |
-|---------|-----------|
-| 😈 Inicio | Estado del sistema · Toggle DiabloAI · Gamelist · Modos |
-| 👆 Touch | Perfil de touch · Extras (iPhone scroll · Gaming Mode · Sin animaciones) |
-| ⚙️ Ajustes | Zeta · AmeRender · FastCharge · Cool Down · Limpiar RAM |
-| 📋 Log | Log del motor · Log de touch · Info del dispositivo |
+| Perfil | Descripción |
+|---|---|
+| Normal | Configuración estándar optimizada |
+| Gaming | 1000Hz · 0ms latencia · PowerHAL boost |
+| iPhone | Scroll estilo iOS · fling 16000 |
+| Sistema | Restaura valores originales |
+
+---
+
+### 🛡️ Diablo Protect
+
+Sistema anti-bootloop integrado. Si el boot anterior no completó, suma un fallo al contador. Al llegar a 3 fallos consecutivos, desactiva el módulo automáticamente. El contador se resetea al completar un boot exitoso.
 
 ---
 
 ### 📲 Instalación
 
 1. Descargá el ZIP desde [Releases](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-2. Abrí **Magisk / KSU / APatch**
+2. Abrí Magisk / KernelSU / APatch
 3. Instalá desde ZIP
 4. Reiniciá el dispositivo
-5. Abrí **KSU WebUI** desde KernelSU → seleccioná modo y perfil de touch
+5. Buscá **Diablo Pro** en el cajón de aplicaciones — se instaló automáticamente
+6. Configurá DiabloAI, el gamelist y las reglas desde la app
+
+> 💡 Si usás KernelSU también podés acceder desde **KSU → Project Diablo Pro → WebUI**
 
 ---
 
 ### ❓ Preguntas frecuentes
 
-**¿Funciona en mi chipset?**  
-Project Diablo detecta automáticamente tu SoC al instalar. Si es MTK, Snapdragon, Exynos, Tensor, Unisoc o Kirin va a funcionar. Para otros chips aplica tweaks genéricos.
+**¿Necesito KernelSU para usar la interfaz?**
+No. La app de control se instala automáticamente con el módulo y funciona con Magisk, KernelSU y APatch. KernelSU WebUI sigue disponible como alternativa.
 
-**¿Qué modo recomendás para jugar?**  
-Con DiabloAI activado no hace falta hacer nada — detecta automáticamente cuando abrís un juego y aplica Gaming Pro. Si preferís control manual, desactivá el AI y seleccioná Gaming Pro desde el WebUI.
+**¿Funciona en mi chipset?**
+Project Diablo detecta automáticamente tu SoC. Si la detección falla, usá el botón CHIP ▾ en la tarjeta de estado.
 
-**¿Puedo cambiar de modo sin reiniciar?**  
-Sí. Desde KSU WebUI el cambio se aplica en segundos sin reiniciar.
+**¿Qué modo recomendás para jugar?**
+Con DiabloAI activado no necesitás elegir — agregá tu juego al gamelist con Gaming Pro y lo aplica solo.
 
-**¿Por qué el teléfono arranca siempre en Balance?**  
-Es intencional. Si DiabloAI está activo, al reiniciar siempre arranca en Balance y el AI toma el control inmediatamente según el contexto. Si está desactivado, arranca en el último modo guardado.
+**¿Puedo cambiar de modo sin reiniciar?**
+Sí. Desde la app el cambio se aplica en 1–2 segundos.
 
-**¿Qué es el Gaming Keeper?**  
-Un proceso en segundo plano que corre durante Gaming Pro y re-aplica los tweaks de GPU y CPU cada 5 segundos para contrarrestar las reversiones automáticas de HyperOS 2.
+**¿DiabloAI consume batería?**
+El loop corre cada 1 segundo con lectura en memoria. Durante gaming la lectura de disco se reduce a cada 5 segundos. El consumo es negligible.
 
-**¿Afecta la temperatura del dispositivo?**  
-En modo Performance y Gaming Pro el dispositivo puede calentar más de lo normal ya que el hardware trabaja al máximo. Podés usar el **Cool Down** del WebUI para bajar la temperatura rápidamente.
+**¿Qué pasa si uso otro módulo de rendimiento?**
+No se recomienda combinar con otros módulos de rendimiento.
 
 ---
 
 ### 📋 Changelog
 
-#### v1.3 — UNIVERSAL (Marzo 2026)
-- ✅ DiabloAI: detección automática de gaming/balance/idle/carga
-- ✅ Gamelist con 522+ juegos reconocidos
-- ✅ FastCharge integrado con protección térmica y sliders configurables
-- ✅ Boot siempre en Balance cuando DiabloAI está activo
-- ✅ Cambio manual respetado solo con DiabloAI desactivado
-- ✅ KSU WebUI: gamelist expandible en inicio · botones de modo compactos
-- ✅ Touch profiles: Normal · Gaming · iPhone · Sistema
-- ✅ Botones Telegram y GitHub integrados
-- ✅ ASCII art restaurado en instalación
+#### v2.0 PRO — 2026
+- **Nuevo**: App de Control nativa — se instala automáticamente al flashear el módulo
+- **Nuevo**: Compatible con Magisk sin necesidad de KernelSU WebUI
+- **Nuevo**: DiabloAI v2 con 6 reglas configurables
+- **Nuevo**: Gamelist con modo individual por app
+- **Nuevo**: Página AI dedicada con estado en tiempo real
+- **Nuevo**: Sistema de bloqueo por app
+- **Nuevo**: Modo por defecto configurable
+- **Nuevo**: Sonido Portal de bienvenida (Web Audio API, 0 KB extra)
+- **Nuevo**: Diablo 3D animado — activo con fuego / dormido con Zzz
+- **Nuevo**: 5 pestañas de navegación
+- **Nuevo**: Notificaciones dinámicas por modo
+- **Nuevo**: Botones ? de ayuda en 5 idiomas
+- **Nuevo**: Selección de chip manual (CHIP ▾)
+- **Nuevo**: 3 niveles de Battery con slider
+- **Nuevo**: Gaming Pro — red integrada (WiFi baja latencia, TCP gaming, buffers 4MB, RPS)
+- **Nuevo**: Personaje Diablesa seleccionable
+- **Nuevo**: Diablo Boost — parámetros de red exclusivos opcionales
+- **Mejorado**: VM tweaks por perfil
+- **Mejorado**: DiabloAI — cache de config cada 5s durante gaming
+- **Mejorado**: DiabloAI — protección OOM del proceso del juego
+- **Mejorado**: Touch Engine — todos los tweaks ahora se aplican correctamente
+- **Mejorado**: Ciclo DiabloAI 4s → 1s
+- **Mejorado**: Loop AI — lectura de config en memoria, de hasta 20s a menos de 1s
+- **Corregido**: IDLE_TIMER acumula correctamente
+- **Corregido**: Boot fluido — primer arranque ya no bloquea la inicialización
 
-#### v1.1 — UNIVERSAL
-- ✅ Soporte universal: Magisk · KSU · APatch
-- ✅ 4 modos de rendimiento
-- ✅ Touch Engine con 4 perfiles
-- ✅ KSU WebUI multilenguaje (ES · EN · PT · ID · RU)
-- ✅ Detección automática de chipset
-- ✅ Scripts Zeta y AmeRender
+#### v1.3 UNIVERSAL — 2026
+- DiabloAI con detección de juegos
+- FastCharge Next con protección térmica
+- Touch Engine con 4 perfiles
+- Soporte universal Magisk/KSU/APatch
+- 5 idiomas en WebUI
+
+#### v1.1 — 2025
+- Primera versión pública
+- 4 modos de rendimiento
+- KSU WebUI
+- Soporte MTK/Snapdragon/Exynos
 
 ---
 
 ## 🇺🇸 English
 
-### What is Project Diablo?
+### What is Project Diablo Pro?
 
-Project Diablo is an advanced performance engine that optimizes CPU, GPU, memory and touch on your Android to maximize FPS and reduce gaming lag. It automatically detects your chipset during installation and applies specific tweaks for each manufacturer.
-
-As of **v1.3**, it includes **DiabloAI** — an automatic detection engine that applies the right mode based on what you're doing: gaming, charging, idle or screen off. It's controlled from the **KSU WebUI**, the graphical interface built into KernelSU.
+Project Diablo Pro is an advanced performance engine for Android that optimizes CPU, GPU, memory and touch to maximize FPS and reduce lag. Version **Pro v2.0** introduces **DiabloAI v2** — an automatic intelligence system with 6 configurable rules that adapts on its own based on what you're doing.
 
 ---
 
-### ✨ Features
+### 📱 Control App — Diablo Pro App
 
-- 😈 **4 performance modes** — Performance · Balance · Battery · Gaming Pro
-- 🤖 **DiabloAI** — Automatic context detection: gaming · balance · idle · charging
-- 🔥 **CPU Engine** — Dynamic governor per chip: `sugov_ext` MTK · `schedutil` Snapdragon · `performance` Exynos
-- 🎮 **GPU Engine** — Max frequency with anti-revert, `gpufreqv2` and legacy MTK support, dynamic Mali
-- 👆 **Touch Profiles** — Normal · Gaming 1000Hz · iPhone Style · Stock
-- 🎮 **Gamelist** — 522+ recognized games for automatic Gaming Pro activation
-- ⚡ **FastCharge** — Faster charging with automatic thermal protection
-- 🧠 **Gaming Keeper** — Fights HyperOS governor reversions every 5 seconds in Gaming Pro
-- 🌐 **Network Boost** — Optimized TCP and reduced latency
-- 🎨 **KSU WebUI** — Full control panel, no external apps needed
-- 🔍 **Automatic chipset detection** — via sysfs + getprop, saved for subsequent boots
+Starting with v2.0, the module includes a **native Android app** that installs automatically when flashing. You no longer need KernelSU WebUI to control the module.
+
+| Feature | Detail |
+|---|---|
+| 🔧 **Auto install** | Installs itself when flashing the module — no extra steps |
+| 📱 **Native app** | Works from the app drawer like any regular app |
+| 😈 **Custom icon** | Purple devil with black sunglasses |
+| ⚡ **No lag** | Dedicated native WebView — none of the KSU WebUI lag |
+| 🌐 **Universal** | Magisk, KernelSU and APatch — any root manager |
+| 🔑 **Direct root bridge** | Runs commands with `su` without going through manager layers |
+| 💾 **Custom banner** | Change the banner from the app with your own image |
+| 📲 **Android 5.0+** | Compatible with any modern rooted Android |
+
+> 💡 If you prefer KernelSU WebUI, it still works exactly the same. The app is a smoother, universal alternative.
+
+---
+
+### ✨ What's new in v2.0 PRO
+
+| Feature | Description |
+|---|---|
+| 📱 **Control App** | Native app included in module — auto-installs on flash |
+| 🤖 **DiabloAI v2** | 6 configurable rules — detects apps, temperature, low battery, idle and more |
+| 🎮 **Smart Gamelist** | Assign a specific mode to each app. Not just games — any app |
+| 📱 **Dedicated AI page** | Full DiabloAI control with real-time status |
+| 🔒 **App lock system** | Locks the mode until the app closes completely |
+| 🔔 **Dynamic notifications** | Shows the exact mode applied for each app |
+| 😈 **Animated 3D Diablo** | Active with fire and sleeping with Zzz |
+| 🔊 **Welcome sound** | Portal effect when opening (0 KB extra) |
+| 🔊 **AI sounds** | Sound when activating/deactivating DiabloAI |
+| 🎨 **New PRO design** | Purple + gold, 3D banner, 5 navigation tabs |
+| ❓ **Help ? buttons** | 3 contextual buttons, translated in 5 languages |
+| 🔋 **Battery levels** | 3 saving levels selectable via slider |
+| 🔧 **Manual chip selection** | Fix the detected chipset from the status card |
+| ℹ️ **Info ? in Status** | DiabloAI explanation, chip, Battery and priorities in 5 languages |
+| 🌐 **Gaming Pro — Integrated network** | WiFi low-latency, gaming TCP, 4MB buffers, RPS — automatic |
+| 👹 **Diablesa** | Second selectable character — tap the demon on the AI page |
+| ⚡ **Optimized AI loop** | Config in memory — from up to 20s per cycle to under 1s |
+
+---
+
+### 🌐 Gaming Pro — Integrated network
+
+| Optimization | Detail |
+|---|---|
+| WiFi low-latency | Prioritizes latency over power saving |
+| No background scans | WiFi chip stops scanning for other networks during gameplay |
+| TCP no idle slow-start | No speed reduction between packet bursts |
+| TCP buffers at 4MB | `rmem_max/wmem_max` raised to avoid kernel truncation |
+| WiFi queue 3000 | Handles burst traffic without dropping packets |
+| RPS on 4 cores | Network interrupts distributed — always a free core available |
+| No diagnostics | Stops `cnss_diag` and `tcpdump` that steal CPU during gameplay |
+
+> 💡 Enable **Diablo Boost** from the app to add `netdev_max_backlog`, `tcp_fastopen` and WiFi no power save on top of Gaming Pro.
+
+---
+
+### 🔋 Battery levels
+
+| Level | Governor | CPU | Best for |
+|---|---|---|---|
+| 🌿 **Soft** | schedutil | 50% max | Daily use with moderate saving |
+| ⚡ **Moderate** | powersave | 25% max | Good saving without losing usability |
+| 💀 **Aggressive** | powersave | Minimum | Full idle, maximum battery life |
 
 ---
 
 ### 😈 Available modes
 
 | Mode | CPU | GPU | Best for |
-|------|-----|-----|----------|
-| ⚡ Performance | Max governor | Max frequency | Sustained performance |
-| ⚖️ Balance | Smart governor | Mid frequency | Daily use with good battery |
-| 🔋 Battery | Aggressive saving | Min frequency | Maximum battery life |
-| 😈 Gaming Pro | Max + anti-revert | Max + keeper | Competitive gaming |
+|---|---|---|---|
+| 🔥 Performance | Max governor | Max frequency | Sustained performance |
+| ⚖️ Balance | Smart governor | Mid frequency | Daily use |
+| 🔋 Battery | Saving (chosen level) | Min frequency | Maximum battery life |
+| 😈 Gaming Pro | Absolute max | Max + FPSGO | Competitive gaming |
 
 ---
 
-### 🤖 DiabloAI — Auto Mode
+### ⚙️ Compatible root managers
 
-| Detected situation | Applied mode |
-|--------------------|--------------|
-| Game from gamelist running | 😈 Gaming Pro |
-| Screen off | 🔋 Battery |
-| Charging | ⚖️ Balance |
-| Normal active use | ⚖️ Balance |
-| No activity for 5 minutes | 🔋 Battery |
-
-> **Note:** when DiabloAI is **enabled**, the mode buttons in WebUI are informational only — AI is in control. To apply a mode manually, disable DiabloAI first.
+| Manager | Min version | Control App | WebUI |
+|---|---|---|---|
+| Magisk | v20.4+ | ✅ Included in module | ❌ Not available |
+| KernelSU | Any | ✅ Included in module | ✅ Available |
+| APatch | Any | ✅ Included in module | ✅ Available |
 
 ---
 
-### 🔧 Supported chipsets
+### 🛡️ Diablo Protect
 
-| Chipset | Support | Details |
-|---------|---------|---------|
-| MediaTek (MTK) | ✅ Maximum | `sugov_ext` · `gpufreqv2` · `dvfsrc` · `FPSGO` · dynamic Mali |
-| Snapdragon (QCOM) | ✅ Full | `schedutil` · DCVS bus boost · KGSL GPU |
-| Exynos (Samsung) | ✅ Full | `performance` governor · GPU devfreq |
-| Google Tensor | ✅ Full | Detection via sysfs |
-| Unisoc | ✅ Base | Generic CPU/GPU tweaks |
-| Kirin (Huawei) | ✅ Base | Generic CPU/GPU tweaks |
-
----
-
-### ⚙️ Supported root managers
-
-| Manager | Min version | Status |
-|---------|-------------|--------|
-| Magisk | v20.4+ | ✅ Supported |
-| KernelSU (KSU) | Any | ✅ Supported + WebUI |
-| APatch | Any | ✅ Supported |
-
----
-
-### 🖥️ KSU WebUI — Control Panel
-
-Project Diablo includes a full graphical interface integrated with **KernelSU WebUI**. No external apps needed.
-
-**How to access:**
-1. Open KernelSU
-2. Tap the Project Diablo module
-3. Tap **Open WebUI**
+Built-in anti-bootloop system. After 3 consecutive failed boots, automatically disables the module so the phone can boot normally. Resets on successful boot.
 
 ---
 
 ### 📲 Installation
 
 1. Download the ZIP from [Releases](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-2. Open **Magisk / KSU / APatch**
+2. Open Magisk / KernelSU / APatch
 3. Install from ZIP
 4. Reboot your device
-5. Open **KSU WebUI** from KernelSU → select mode and touch profile
+5. Find **Diablo Pro** in your app drawer — installed automatically
+6. Configure DiabloAI, gamelist and rules from the app
+
+> 💡 If you use KernelSU you can also access from **KSU → Project Diablo Pro → WebUI**
 
 ---
 
 ### ❓ FAQ
 
-**Does it work on my chipset?**  
-Project Diablo automatically detects your SoC on install. MTK, Snapdragon, Exynos, Tensor, Unisoc and Kirin are all supported. Other chips get generic tweaks.
+**Do I need KernelSU to use the interface?**
+No. The control app installs automatically with the module and works with Magisk, KernelSU and APatch. KernelSU WebUI is still available as an alternative.
 
-**Which mode is best for gaming?**  
-With DiabloAI active, no action needed — it automatically detects when you open a game and applies Gaming Pro. For manual control, disable AI and select Gaming Pro from WebUI.
+**Does it work on my chipset?**
+Project Diablo auto-detects your SoC. If detection fails, use the CHIP ▾ button in the status card.
 
-**Can I switch modes without rebooting?**  
-Yes. Changes from KSU WebUI apply in seconds without rebooting.
+**Which mode for gaming?**
+With DiabloAI on you don't need to choose — add your game to the gamelist with Gaming Pro and it applies automatically.
 
-**Why does the phone always boot into Balance?**  
-By design. If DiabloAI is active, it always boots to Balance and AI immediately takes control based on context. If AI is disabled, it boots into the last saved mode.
+**Can I switch modes without rebooting?**
+Yes. From the app changes apply in 1–2 seconds.
 
-**What is the Gaming Keeper?**  
-A background process that runs during Gaming Pro and re-applies GPU and CPU tweaks every 5 seconds to counter HyperOS 2 automatic reversions.
+**Does DiabloAI drain battery?**
+Loop runs every 1 second with in-memory config. During gaming disk reads drop to every 5 seconds. Consumption is negligible.
 
 ---
 
 ## 🇧🇷 Português
 
-### O que é Project Diablo?
+### O que é Project Diablo Pro?
 
-Motor de desempenho avançado que otimiza CPU, GPU, memória e touch do Android. A partir da v1.3 inclui **DiabloAI** para detecção automática de contexto e controle via **KSU WebUI**.
-
-### 😈 Modos disponíveis
-
-| Modo | Ideal para |
-|------|------------|
-| ⚡ Performance | Desempenho sustentado |
-| ⚖️ Balance | Uso diário com boa bateria |
-| 🔋 Battery | Máxima autonomia |
-| 😈 Gaming Pro | Jogos competitivos |
-
-### 🤖 DiabloAI
-
-| Situação | Modo aplicado |
-|----------|---------------|
-| Jogo em execução | 😈 Gaming Pro |
-| Tela desligada | 🔋 Battery |
-| Carregando | ⚖️ Balance |
-| Uso normal | ⚖️ Balance |
-| Sem atividade 5 min | 🔋 Battery |
-
-### 📲 Instalação
-
-1. Baixe o ZIP em [Releases](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-2. Abra o Magisk / KSU / APatch → Instale pelo ZIP → Reinicie
-3. Abra o **KSU WebUI** → selecione o modo
+Project Diablo Pro é um motor de desempenho avançado para Android. A versão **Pro v2.0** apresenta o **DiabloAI v2** e agora inclui um **app nativo de controle** que se instala automaticamente ao flashear o módulo.
 
 ---
 
-## 🇮🇩 Indonesia
+### 📱 App de Controle — Diablo Pro App
 
-### Apa itu Project Diablo?
-
-Mesin performa canggih yang mengoptimalkan CPU, GPU, memori, dan sentuhan Android. Mulai v1.3 mencakup **DiabloAI** untuk deteksi konteks otomatis dan kontrol via **KSU WebUI**.
-
-### 😈 Mode tersedia
-
-| Mode | Terbaik untuk |
-|------|---------------|
-| ⚡ Performance | Performa berkelanjutan |
-| ⚖️ Balance | Penggunaan harian |
-| 🔋 Battery | Baterai maksimal |
-| 😈 Gaming Pro | Game kompetitif |
-
-### 🤖 DiabloAI
-
-| Situasi terdeteksi | Mode diterapkan |
-|--------------------|-----------------|
-| Game dari daftar berjalan | 😈 Gaming Pro |
-| Layar mati | 🔋 Battery |
-| Mengisi daya | ⚖️ Balance |
-| Penggunaan normal | ⚖️ Balance |
-| Tidak aktif 5 menit | 🔋 Battery |
-
-### 📲 Instalasi
-
-1. Unduh ZIP dari [Releases](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-2. Buka Magisk / KSU / APatch → Pasang dari ZIP → Reboot
-3. Buka **KSU WebUI** → pilih mode
+| Recurso | Detalhe |
+|---|---|
+| 🔧 **Instalação automática** | Se instala ao flashear o módulo — sem passos extras |
+| 📱 **App nativo** | Funciona na gaveta de apps como qualquer app |
+| 😈 **Ícone próprio** | Demônio roxo com óculos escuros |
+| ⚡ **Sem lag** | WebView nativo dedicado — sem o lag do WebUI do KSU |
+| 🌐 **Universal** | Magisk, KernelSU e APatch — qualquer gerenciador root |
 
 ---
 
-## 🇷🇺 Русский
+### ✨ Novidades na v2.0 PRO
 
-### Что такое Project Diablo?
-
-Продвинутый движок производительности, оптимизирующий CPU, GPU, память и сенсорный экран Android. С версии v1.3 включает **DiabloAI** для автоматического определения контекста и управление через **KSU WebUI**.
-
-### 😈 Доступные режимы
-
-| Режим | Лучше всего для |
-|-------|-----------------|
-| ⚡ Performance | Стабильная производительность |
-| ⚖️ Balance | Ежедневное использование |
-| 🔋 Battery | Максимальный заряд |
-| 😈 Gaming Pro | Соревновательные игры |
-
-### 🤖 DiabloAI
-
-| Ситуация | Применяемый режим |
-|----------|-------------------|
-| Игра из списка запущена | 😈 Gaming Pro |
-| Экран выключен | 🔋 Battery |
-| Зарядка | ⚖️ Balance |
-| Обычное использование | ⚖️ Balance |
-| Неактивность 5 минут | 🔋 Battery |
-
-### 📲 Установка
-
-1. Скачайте ZIP из [Releases](https://github.com/ByRafaelSystem/Project-Diablo/releases)
-2. Откройте Magisk / KSU / APatch → Установите из ZIP → Перезагрузите
-3. Откройте **KSU WebUI** → выберите режим
-
----
-
-<div align="center">
-
-## 📞 Contacto / Contact
-
-[![Telegram](https://img.shields.io/badge/Telegram-@proyect__diablo-blue?style=for-the-badge&logo=telegram)](https://t.me/proyect_diablo)
-[![GitHub](https://img.shields.io/badge/GitHub-ByRafaelSystem-black?style=for-the-badge&logo=github)](https://github.com/ByRafaelSystem)
-
----
-
-**Apache License 2.0 — By_Rafael System © 2026**
-
-*"No soy un módulo cualquiera."*
-
-</div>
+- 📱 **App de Controle** — App nativo incluído, se instala automaticamente
+- 🤖 **DiabloAI v2** — 6 regras configuráveis
+- 🎮 **Gamelist inteligente** — Modo específico para cada app
+- 🔒 **Bloqueio por app** — Mantém o modo enquanto a app estiver na memória
+- 😈 **Diablo 3D animado** — Ativo com fogo e dormindo com Zzz
+- 🎨 **Design PRO** — Roxo + dourado, banner 3D, 5 abas
+- 🔋 **Níveis de Battery** — 3 níveis de economia com slider
+- 🔧 **Seleção de chip manual** — Corrija o chip direto na tela de status
+- 🌐 **Gaming Pro — Rede integrada** — WiFi baixa latência, TCP gaming, buffers 4MB
+- 👹 **D
