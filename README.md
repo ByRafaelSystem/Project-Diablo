@@ -1,4 +1,6 @@
-![Project Diablo Banner](https://github.com/ByRafaelSystem/Project-Diablo/blob/main/IMG_20260327_162431.jpg?raw=true)
+[![Project Diablo Pro](https://github.com/ByRafaelSystem/Project-Diablo/raw/main/project_diablo_pro.jpg)
+
+](https://github.com/ByRafaelSystem/Project-Diablo/blob/main/project_diablo_pro.jpg)
 
 # 😈 Project Diablo Pro
 
